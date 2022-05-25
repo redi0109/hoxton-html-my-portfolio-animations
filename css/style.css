@@ -33,7 +33,6 @@
 
 .header a:hover{
   color: #00ff7b;
-
 }
 
 .left-header {
@@ -113,5 +112,36 @@ footer p {
   }
   .footer-section {
     display: none;
+  }
+}
+
+
+.creator-logo{
+  animation: slideIn 2s;
+}
+
+@keyframes slideIn{
+  0%{
+    transform: translateX(1000px);
+  }
+
+  100%{
+    transform: translateX(0px);
+  }
+}
+
+.left-main{
+  animation: slideInn 3s;
+}
+
+@keyframes slideInn{
+  0%{
+   opacity: 0%;
+   
+  }
+
+  100%{
+    opacity: 100%;
+
   }
 }
