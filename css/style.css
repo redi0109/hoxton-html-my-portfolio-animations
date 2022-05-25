@@ -131,17 +131,17 @@ footer p {
 }
 
 .left-main{
-  animation: slideInn 3s;
+  animation: slideInn 2s;
 }
 
 @keyframes slideInn{
   0%{
    opacity: 0%;
-   
+   transform: translateY(1000px);
   }
 
   100%{
     opacity: 100%;
-
+    transform: translate(0px);
   }
 }
