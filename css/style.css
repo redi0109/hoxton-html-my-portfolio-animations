@@ -28,10 +28,12 @@
 .header a {
   text-decoration: none;
   color: aliceblue;
+  transition: 0.5s;
 }
 
 .header a:hover{
   color: #00ff7b;
+
 }
 
 .left-header {
